@@ -6,77 +6,226 @@ body{
   font-family: 'Lato', sans-serif;
 }
 h1{
-  font-family: 'Noto Serif', serif;;
-  color: #3D518C;
+  font-family: 'Over the Rainbow', cursive;
+  color: black;
+  font-size: 100px;
   font-weight: lighter;
-  font-size: 45px;
+  margin:25px;
 }
 h2 {
   font-family: 'Lato', sans-serif;
-  color: #7692FF;
+  color: white;
+  background-color: rgb(255,220,99);
   font-weight: lighter;
   font-size: 25px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
 }
-a {
-  color: #ABD2FA;
-  text-decoration: none;
+h3  {
+  font-family: 'Lato', sans-serif;
+  color: white;
+  font-weight: lighter;
+  font-size: 25px;
+  padding: 15px;
 }
-a:hover {
-  text-decoration: underline;
+
+h4 {
+  font-family: 'Lato', sans-serif;
+  color: black;
   font-weight: bolder;
-  color: #ABD2FA;
+  font-size: 15px;
 }
+
+p {
+  font-family: 'Lato', sans-serif;
+  color: black;
+  font-size: 14px;
+}
+
+li { 
+  list-style-type: circle;
+  }
+
+img {
+  max-height: 100%;
+  width: auto;
+}
+
 #banner{
   text-align: center;
-  background-image: url("https://unsplash.it/1000/600?random");
+  background-image: url(images/ananas.jpg);
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
-  color: white;
+  padding: 35px;
 }
-#banner h1 {
-  font-size: 50px;
-}
+
 #banner p {
-  margin-bottom: 40px;
   opacity: 0.8;
-  font-size: 30px;
+  font-size: 16px;
   font-weight: lighter;
 }
-#footer{
-  padding: 30px;
-  background-color: black;
-  color: lightgrey;
-}
-.card-white {
-  background-color: white;
+
+
+#contact {
+  padding: 10px;
+  background: rgba(255,255,255,0.6);
+  margin-left: 800px;
+  margin-right: 125px;
+  margin-top: 50px;
   border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+}
+
+#banner ul{
+padding:10px;
+}
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icone {
+font-size: 25px;
+padding: 10px;
+height: 60px;
+}
+
+
+#banner li {
+ list-style-type: none;
+
+}
+
+#banner p {
+  color: black;
+  padding: 10px;
+}
+#banner i {
+  color: black;
+}
+
+#banner i:hover {
+  color: rgba(159,184,200);
+}
+
+.btn-CV {
+  color: white;
+  background-color: rgba(159,184,200);
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 15px;
+}
+
+.btn-CV a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 160px;
+  justify-content: space-around;
+  margin: 15px;
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  text-align: left;
+}
+
+.mini-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 300px;
+}
+
+.left-container { 
+  flex: 0 0 100px;
+  padding: 10px;
+}
+
+.center-contenair {
+flex: 0 0 360px;
+padding: 10px;
+}
+
+.right-contenair {
+  flex: 0 0 170px;
+  padding: 10px;
+}
+
+.right-contenair img {
+  display:block;
+  margin:auto;
+  padding:10px;
+}
+
+.main-container2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+
+.category-container2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 160px;
+  justify-content: space-around;
+  margin: 15px;
+  background: rgba(255,255,255,0.6);
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  text-align: left;
+}
+
+.mini-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  height:70px;
+}
+
+.left-container2 { 
+  padding: 10px;
+  width: 100px;
+}
+
+.left-container2 img {
+  max-height: 5%;
+  width: auto;
+}
+
+.center-contenair2 {
+padding: 10px;
+width: 150px;
+}
+
+.right-contenair2 {
+  padding: 10px;
+}
+
+#footer {
   text-align: center;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11);
-  padding: 16px;
-  margin: 16px 0px;
-}
-.card-white img {
-  margin-bottom: 20px;
-}
-
-.btn-blue {
-  color: white;
-  background-color: #6772e5;
-  border-radius: 4px;
-  box-shadow: 0 4px 6px rgba(50,50,93,.11);
-  padding: 15px 20px;
+  padding: 10px;
+  margin: 40px;
+  background-color: rgba(159,184,200);
+  font-size: 20px;
+  color:black;
 }
 
-.btn-blue:hover {
-  background-color: #7795f8;
-  color: white;
+#footer fab fa-linkedin:hover {
+    color: rgbargb(255,220,99);
 }
 
-#footer a {
-  color: lightgrey;
-  font-size: 32px;
-}
-#footer a:hover {
-  color: white;
-}
+
