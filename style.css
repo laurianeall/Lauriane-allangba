@@ -242,8 +242,8 @@ padding-left: 10px;
   color:black;
 }
 
-#footer :hover {
-    color: rgbargb(255,220,99);
+#footer:hover {
+  color: rgba(255,220,99);
 }
 
 
